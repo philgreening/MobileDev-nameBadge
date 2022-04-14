@@ -16,7 +16,7 @@ export default function App() {
         </View>
 
       </SafeAreaView >
-      <StatusBar style="auto" />
+    <StatusBar style="auto" />
 
     </View>
 
@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
+    paddingLeft: 50,
+    paddingRight: 50,
+    paddingBottom: 75
   },
   welcomeText: {
     fontSize: 90,
@@ -46,12 +49,11 @@ subtitleText: {
     textAlign: 'center'
 },
 box: {
-  width: '90%',
+  width: '100%',
   height: '55%',
   backgroundColor: 'white',
   borderRadius: 5,
-  justifyContent: 'center',
-  margin: 'auto'
+  justifyContent: 'center'
 },
 nameText: {
   fontSize: 60,
