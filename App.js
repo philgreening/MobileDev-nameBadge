@@ -34,36 +34,36 @@ const styles = StyleSheet.create({
     paddingBottom: 75
   },
   welcomeText: {
-    fontSize: 90,
-    textTransform: 'uppercase',
-    fontWeight: 'bold',
-    color: 'white',
-    textAlign: 'center'
-},
-subtitleText: {
-    fontSize: 30,
-    textTransform: 'uppercase',
-    fontWeight: 'bold',
-    color: 'white',
-    marginBottom: 20,
-    textAlign: 'center'
-},
-box: {
-  width: '100%',
-  height: '55%',
-  backgroundColor: 'white',
-  borderRadius: 5,
-  justifyContent: 'center'
-},
-nameText: {
-  fontSize: 60,
-  textAlign: 'center',
-  fontWeight: 'bold'
-},
-safeArea: {
-  flex: 1,
-  width: '100%',
-  height: '100%',
+    fontSize: 90,
+    textTransform: 'uppercase',
+    fontWeight: 'bold',
+    color: 'white',
+    textAlign: 'center'
+  },
+  subtitleText: {
+    fontSize: 30,
+    textTransform: 'uppercase',
+    fontWeight: 'bold',
+    color: 'white',
+    marginBottom: 20,
+    textAlign: 'center'
+  },
+  box: {
+    width: '100%',
+    height: '55%',
+    backgroundColor: 'white',
+    borderRadius: 5,
+    justifyContent: 'center'
+  },
+  nameText: {
+    fontSize: 60,
+    textAlign: 'center',
+    fontWeight: 'bold'
+  },
+  safeArea: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
 
-}
+  }
 });
